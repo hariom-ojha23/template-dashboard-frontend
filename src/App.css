@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f0f2f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: 'black';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.auth-bg {
+  background-image: url(https://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.auth-form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 2rem;
+}
+
+.sidebar-container {
+  width: 280px;
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: fixed;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar {
+  background: linear-gradient(#42424a, #191919);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tableContainer::-webkit-scrollbar {
+  display: none;
+}
+
+td {
+  word-wrap: normal;
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
+
+.container {
+  width: 100vw;
 }
