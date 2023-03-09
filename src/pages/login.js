@@ -107,7 +107,7 @@ const Login = () => {
           </Avatar>
 
           <Typography component='h4' variant='h4' sx={{ mt: 3, mb: 5 }}>
-            Black Coffer
+            Template
           </Typography>
 
           <TextField
