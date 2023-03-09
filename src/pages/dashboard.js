@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Box, Grid, Button } from '@mui/material'
+import { Box, Grid } from '@mui/material'
 import PieChart from '../components/charts/PieChart'
 import SlicePieChart from '../components/charts/SlicePieChart'
 import GeoTable from '../components/charts/GeoTable'
@@ -59,7 +59,6 @@ const infoBoxData = [
 ]
 
 const Dashboard = () => {
-  const [openDialog, setOpenDialog] = useState(false)
   const [infoBoxCount, setInfoBoxCount] = useState([0, 0, 0, 0])
 
   const dispatch = useDispatch()

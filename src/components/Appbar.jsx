@@ -8,7 +8,7 @@ const Appbar = () => {
   return (
     <Toolbar sx={{ mt: 2 }}>
       <Box sx={{ flexGrow: 1 }}>
-        <h5 style={{ margin: 0, color: 'gray' }}>BlackCoffer</h5>
+        <h5 style={{ margin: 0, color: 'gray' }}>Template</h5>
         <h3 style={{ margin: 0, fontWeight: 500 }}>Dashboard</h3>
       </Box>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mr: 3 }}>

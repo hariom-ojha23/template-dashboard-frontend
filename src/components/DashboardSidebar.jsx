@@ -49,7 +49,7 @@ const DashboardSidebar = () => {
           letterSpacing={1.2}
           sx={{ color: light, my: 4, fontSize: 20 }}
         >
-          BlackCoffer
+          Template
         </Typography>
         <Divider sx={{ width: '90%', backgroundColor: 'gray' }} />
 
